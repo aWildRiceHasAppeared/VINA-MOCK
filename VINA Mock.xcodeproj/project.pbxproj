@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A095DDB35C105182575C156C /* Pods_VINA_MockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A21516E34D2B4353B3AFD9 /* Pods_VINA_MockTests.framework */; };
+		AFBDF4129531471886AE7D26 /* Pods_VINA_MockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CE96D1349724823C2876AB /* Pods_VINA_MockUITests.framework */; };
+		E3ABD1F2209182D9002615B4 /* EmailSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ABD1F1209182D9002615B4 /* EmailSignUpViewController.swift */; };
+		E3ABD1F4209182F6002615B4 /* EmailSignUpProfilePhotoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ABD1F3209182F6002615B4 /* EmailSignUpProfilePhotoSelectViewController.swift */; };
+		E3ABD1F62091945D002615B4 /* SignUpEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ABD1F52091945D002615B4 /* SignUpEmail.swift */; };
+		E3ABD1F82091988B002615B4 /* ProfilePhotoSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ABD1F72091988B002615B4 /* ProfilePhotoSelection.swift */; };
 		E3E81E4D2090158C002A4070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E81E4C2090158C002A4070 /* AppDelegate.swift */; };
-		E3E81E4F2090158C002A4070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E81E4E2090158C002A4070 /* ViewController.swift */; };
 		E3E81E522090158C002A4070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E81E502090158C002A4070 /* Main.storyboard */; };
 		E3E81E552090158C002A4070 /* VINA_Mock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3E81E532090158C002A4070 /* VINA_Mock.xcdatamodeld */; };
 		E3E81E572090158D002A4070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E81E562090158D002A4070 /* Assets.xcassets */; };
 		E3E81E5A2090158D002A4070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E81E582090158D002A4070 /* LaunchScreen.storyboard */; };
 		E3E81E652090158D002A4070 /* VINA_MockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E81E642090158D002A4070 /* VINA_MockTests.swift */; };
 		E3E81E702090158D002A4070 /* VINA_MockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E81E6F2090158D002A4070 /* VINA_MockUITests.swift */; };
+		E3E81E7E20901B45002A4070 /* InitialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E81E7D20901B45002A4070 /* InitialPageViewController.swift */; };
+		E3E81E8320904203002A4070 /* VINAZINEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E81E8220904203002A4070 /* VINAZINEViewController.swift */; };
+		E3E81E8520904C45002A4070 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E81E8420904C45002A4070 /* DiscoverViewController.swift */; };
+		E3E81E8720904E68002A4070 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3E81E8620904E68002A4070 /* GoogleService-Info.plist */; };
+		E3EC3BFB2092BE980062E55A /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EC3BFA2092BE980062E55A /* Discover.swift */; };
+		FF62462E27EE97A946EAC20A /* Pods_VINA_Mock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A22F10B8238FBF99EF5979 /* Pods_VINA_Mock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37A22F10B8238FBF99EF5979 /* Pods_VINA_Mock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VINA_Mock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFDDE3CB93A13F9016D1E7B /* Pods-VINA MockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VINA MockUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VINA MockUITests/Pods-VINA MockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CE24BC8B5ED91C5B07FDD32 /* Pods-VINA MockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VINA MockUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VINA MockUITests/Pods-VINA MockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78206471009B67BAFD2783B6 /* Pods-VINA MockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VINA MockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VINA MockTests/Pods-VINA MockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97A21516E34D2B4353B3AFD9 /* Pods_VINA_MockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VINA_MockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15212DBF1ED0578B1E7E0F4 /* Pods-VINA Mock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VINA Mock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VINA Mock/Pods-VINA Mock.debug.xcconfig"; sourceTree = "<group>"; };
+		BB3B2EF47BBA377FE4BD720B /* Pods-VINA MockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VINA MockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VINA MockTests/Pods-VINA MockTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2A5F5BF75304FC5AD935C83 /* Pods-VINA Mock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VINA Mock.release.xcconfig"; path = "Pods/Target Support Files/Pods-VINA Mock/Pods-VINA Mock.release.xcconfig"; sourceTree = "<group>"; };
+		E0CE96D1349724823C2876AB /* Pods_VINA_MockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VINA_MockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3ABD1F1209182D9002615B4 /* EmailSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignUpViewController.swift; sourceTree = "<group>"; };
+		E3ABD1F3209182F6002615B4 /* EmailSignUpProfilePhotoSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignUpProfilePhotoSelectViewController.swift; sourceTree = "<group>"; };
+		E3ABD1F52091945D002615B4 /* SignUpEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmail.swift; sourceTree = "<group>"; };
+		E3ABD1F72091988B002615B4 /* ProfilePhotoSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelection.swift; sourceTree = "<group>"; };
 		E3E81E492090158C002A4070 /* VINA Mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VINA Mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E81E4C2090158C002A4070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3E81E4E2090158C002A4070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3E81E512090158C002A4070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3E81E542090158C002A4070 /* VINA_Mock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VINA_Mock.xcdatamodel; sourceTree = "<group>"; };
 		E3E81E562090158D002A4070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +72,11 @@
 		E3E81E6B2090158D002A4070 /* VINA MockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VINA MockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E81E6F2090158D002A4070 /* VINA_MockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VINA_MockUITests.swift; sourceTree = "<group>"; };
 		E3E81E712090158D002A4070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E81E7D20901B45002A4070 /* InitialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPageViewController.swift; sourceTree = "<group>"; };
+		E3E81E8220904203002A4070 /* VINAZINEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VINAZINEViewController.swift; sourceTree = "<group>"; };
+		E3E81E8420904C45002A4070 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		E3E81E8620904E68002A4070 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3EC3BFA2092BE980062E55A /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF62462E27EE97A946EAC20A /* Pods_VINA_Mock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A095DDB35C105182575C156C /* Pods_VINA_MockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBDF4129531471886AE7D26 /* Pods_VINA_MockUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A8FE31E2FADA37517BA1CB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A15212DBF1ED0578B1E7E0F4 /* Pods-VINA Mock.debug.xcconfig */,
+				D2A5F5BF75304FC5AD935C83 /* Pods-VINA Mock.release.xcconfig */,
+				78206471009B67BAFD2783B6 /* Pods-VINA MockTests.debug.xcconfig */,
+				BB3B2EF47BBA377FE4BD720B /* Pods-VINA MockTests.release.xcconfig */,
+				4DFDDE3CB93A13F9016D1E7B /* Pods-VINA MockUITests.debug.xcconfig */,
+				5CE24BC8B5ED91C5B07FDD32 /* Pods-VINA MockUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E3E81E402090158C002A4070 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				E3E81E632090158D002A4070 /* VINA MockTests */,
 				E3E81E6E2090158D002A4070 /* VINA MockUITests */,
 				E3E81E4A2090158C002A4070 /* Products */,
+				3A8FE31E2FADA37517BA1CB0 /* Pods */,
+				F01397D879CD9B3BDE4E8F34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +145,11 @@
 		E3E81E4B2090158C002A4070 /* VINA Mock */ = {
 			isa = PBXGroup;
 			children = (
+				E3E81E8620904E68002A4070 /* GoogleService-Info.plist */,
+				E3E81E8120901B5A002A4070 /* Controller */,
+				E3E81E8020901B55002A4070 /* View */,
+				E3E81E7F20901B4F002A4070 /* Model */,
 				E3E81E4C2090158C002A4070 /* AppDelegate.swift */,
-				E3E81E4E2090158C002A4070 /* ViewController.swift */,
-				E3E81E502090158C002A4070 /* Main.storyboard */,
-				E3E81E562090158D002A4070 /* Assets.xcassets */,
-				E3E81E582090158D002A4070 /* LaunchScreen.storyboard */,
 				E3E81E5B2090158D002A4070 /* Info.plist */,
 				E3E81E532090158C002A4070 /* VINA_Mock.xcdatamodeld */,
 			);
@@ -128,6 +174,48 @@
 			path = "VINA MockUITests";
 			sourceTree = "<group>";
 		};
+		E3E81E7F20901B4F002A4070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3E81E8020901B55002A4070 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3E81E7D20901B45002A4070 /* InitialPageViewController.swift */,
+				E3E81E502090158C002A4070 /* Main.storyboard */,
+				E3ABD1F3209182F6002615B4 /* EmailSignUpProfilePhotoSelectViewController.swift */,
+				E3ABD1F1209182D9002615B4 /* EmailSignUpViewController.swift */,
+				E3E81E8420904C45002A4070 /* DiscoverViewController.swift */,
+				E3E81E8220904203002A4070 /* VINAZINEViewController.swift */,
+				E3E81E562090158D002A4070 /* Assets.xcassets */,
+				E3E81E582090158D002A4070 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3E81E8120901B5A002A4070 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3ABD1F52091945D002615B4 /* SignUpEmail.swift */,
+				E3ABD1F72091988B002615B4 /* ProfilePhotoSelection.swift */,
+				E3EC3BFA2092BE980062E55A /* Discover.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F01397D879CD9B3BDE4E8F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A22F10B8238FBF99EF5979 /* Pods_VINA_Mock.framework */,
+				97A21516E34D2B4353B3AFD9 /* Pods_VINA_MockTests.framework */,
+				E0CE96D1349724823C2876AB /* Pods_VINA_MockUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3E81E742090158D002A4070 /* Build configuration list for PBXNativeTarget "VINA Mock" */;
 			buildPhases = (
+				296520A8AC86863C58248FD5 /* [CP] Check Pods Manifest.lock */,
 				E3E81E452090158C002A4070 /* Sources */,
 				E3E81E462090158C002A4070 /* Frameworks */,
 				E3E81E472090158C002A4070 /* Resources */,
+				AB9BE3A2D67E214C96AE0048 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3E81E772090158D002A4070 /* Build configuration list for PBXNativeTarget "VINA MockTests" */;
 			buildPhases = (
+				21DD7B161125CA2897D8F831 /* [CP] Check Pods Manifest.lock */,
 				E3E81E5C2090158D002A4070 /* Sources */,
 				E3E81E5D2090158D002A4070 /* Frameworks */,
 				E3E81E5E2090158D002A4070 /* Resources */,
@@ -170,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3E81E7A2090158D002A4070 /* Build configuration list for PBXNativeTarget "VINA MockUITests" */;
 			buildPhases = (
+				37911F39CCAB504487BC1075 /* [CP] Check Pods Manifest.lock */,
 				E3E81E672090158D002A4070 /* Sources */,
 				E3E81E682090158D002A4070 /* Frameworks */,
 				E3E81E692090158D002A4070 /* Resources */,
@@ -235,6 +327,7 @@
 				E3E81E5A2090158D002A4070 /* LaunchScreen.storyboard in Resources */,
 				E3E81E572090158D002A4070 /* Assets.xcassets in Resources */,
 				E3E81E522090158C002A4070 /* Main.storyboard in Resources */,
+				E3E81E8720904E68002A4070 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +347,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21DD7B161125CA2897D8F831 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VINA MockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		296520A8AC86863C58248FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VINA Mock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37911F39CCAB504487BC1075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VINA MockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9BE3A2D67E214C96AE0048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VINA Mock/Pods-VINA Mock-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VINA Mock/Pods-VINA Mock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3E81E452090158C002A4070 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E81E4F2090158C002A4070 /* ViewController.swift in Sources */,
 				E3E81E552090158C002A4070 /* VINA_Mock.xcdatamodeld in Sources */,
+				E3ABD1F2209182D9002615B4 /* EmailSignUpViewController.swift in Sources */,
+				E3ABD1F62091945D002615B4 /* SignUpEmail.swift in Sources */,
 				E3E81E4D2090158C002A4070 /* AppDelegate.swift in Sources */,
+				E3ABD1F82091988B002615B4 /* ProfilePhotoSelection.swift in Sources */,
+				E3ABD1F4209182F6002615B4 /* EmailSignUpProfilePhotoSelectViewController.swift in Sources */,
+				E3EC3BFB2092BE980062E55A /* Discover.swift in Sources */,
+				E3E81E8320904203002A4070 /* VINAZINEViewController.swift in Sources */,
+				E3E81E7E20901B45002A4070 /* InitialPageViewController.swift in Sources */,
+				E3E81E8520904C45002A4070 /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +613,7 @@
 		};
 		E3E81E752090158D002A4070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15212DBF1ED0578B1E7E0F4 /* Pods-VINA Mock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +631,7 @@
 		};
 		E3E81E762090158D002A4070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A5F5BF75304FC5AD935C83 /* Pods-VINA Mock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +649,7 @@
 		};
 		E3E81E782090158D002A4070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78206471009B67BAFD2783B6 /* Pods-VINA MockTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +670,7 @@
 		};
 		E3E81E792090158D002A4070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3B2EF47BBA377FE4BD720B /* Pods-VINA MockTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +691,7 @@
 		};
 		E3E81E7B2090158D002A4070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFDDE3CB93A13F9016D1E7B /* Pods-VINA MockUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +711,7 @@
 		};
 		E3E81E7C2090158D002A4070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE24BC8B5ED91C5B07FDD32 /* Pods-VINA MockUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
